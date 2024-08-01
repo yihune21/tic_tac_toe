@@ -15,7 +15,6 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -24,10 +23,15 @@ p {
   background-color: gold;
   width: 10rem;
   height: 10rem;
+  color: #fff;
+  font-size: 5rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .game__board_item:hover {
-  background-color: #fff;
+  background-color: #ce2d2d;
   z-index: 1;
 }
 .game__title {
