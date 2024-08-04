@@ -46,6 +46,12 @@ p {
   margin-top: 0;
   margin-bottom: 3rem;
 }
+.turn-display {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .game__reset {
   background-color: #0aa9d5;
   width: 10rem;
